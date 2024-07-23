@@ -6,14 +6,14 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
+//import org.junit.jupiter.api.DisplayName;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class Mesto1Test {
 
-    String bearerToken = "сюда_впиши_свой_токен";
+    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjU0YTA4NjdmNDUwNjAwM2Q1ODUwNGQiLCJpYXQiOjE3MjE3MjUwMDUsImV4cCI6MTcyMjMyOTgwNX0.1fWsWhKXB9qV-SstfTjnlr7M77IBFX33bZy8JtDyqf8";
 
     @Before
     public void setUp() {
